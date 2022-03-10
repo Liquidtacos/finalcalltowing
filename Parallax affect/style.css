@@ -1,0 +1,104 @@
+body {
+  background-color: #ffffbf;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 400%;
+  color: #5c3535;
+  text-transform: uppercase;
+  letter-spacing: 14;
+  margin: 5% 0;
+  font-weight: bold;
+}
+
+.first-photo-description {
+  text-align: center;
+  font-size: 250%;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  letter-spacing: 14;
+}
+
+.second-photo-description {
+  text-align: center;
+  font-size: 250%;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 14;
+}
+ul {
+  text-align: center;
+  font-size: 50%;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 14;
+  padding-top: 2rem;
+  padding: 10px 20px;
+}
+
+li {
+  padding-top: 0.5rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 400%;
+  color: #4a4444;
+  text-transform: uppercase;
+  letter-spacing: 14;
+  margin: 45% 0;
+}
+/*start parallax*/
+
+.parallax {
+  background: url("https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/272684570_100724729196016_8005212973318757382_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=uBlGN9wntlcAX-mYl5R&tn=RbEr_fMu6sHO2pZz&_nc_ht=scontent-ort2-2.xx&oh=00_AT-v4H8b2gpbjdal2RHS7lRk3rL7GDGZgSnCp2REPnumWA&oe=622E3F45") repeat fixed 100%;
+  padding-top: 18%;
+  padding-bottom: 18%;
+  max-width: 100%;
+  min-height: 20rem;
+  background-size: cover;
+}
+
+.parallaxx {
+  background: url(images/tow4.jpg) repeat fixed 100%;
+  padding-top: 18%;
+  padding-bottom: 18%;
+  max-width: 100%;
+  min-height: 20rem;
+  background-size: cover;
+}
+
+.parallax-inner {
+}
+
+.fa  {
+  padding: 20px;
+  font-size: 30px;
+  max-width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 250px) {
+
+ .responsive {
+   padding: 0px 10px;
+   background-color:;
+ }
+
+ h1 {
+   padding: 10px 0px;
+ }
+}
+
+/*end parallax*/
